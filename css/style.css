@@ -29,6 +29,7 @@
     width: 70%;
     margin: auto;
     
+    
 }
 
 .flex{
@@ -117,6 +118,7 @@ main{
 
 section{
     padding-top: 80px;
+    
 }
 
 
@@ -165,7 +167,7 @@ section h1{
 }
 
 .card.group{
-    gap: 20px;
+    gap: 30px;
 
 }
 
