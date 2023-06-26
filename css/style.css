@@ -44,6 +44,7 @@
 .button-primary{
     background-color: #0061FF;
     color: white;
+    font-size: small;
 
     padding: 3px 8px;
 }
@@ -58,6 +59,10 @@
 
 .font-xxlarge{
     font-size: xx-large;
+}
+
+.m-top{
+    margin-top: 30px;
 }
 
 
@@ -130,7 +135,7 @@ section h1{
 
 .first-group{
    max-width: calc(100% / 3);
-   justify-content: space-between;
+   
 
    
 }
@@ -166,32 +171,22 @@ section h1{
     padding-right: 80px;
 }
 
-.card.group{
+.card{
     gap: 30px;
 
 }
 
 .card.group> div{
     width: calc(100% / 3);
-    
-    
-    
+        
 }
 
-.card-alone{
 
-    width: 100%;
-    height: 100px;
-}
-
-.card-alone{
-    margin-top: 30px;
-}
 
 .row{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     gap: 10px;
-    padding: 0 20px;
+    padding: 5px 20px;
     
 }
 
@@ -225,10 +220,42 @@ section h1{
 
 .border-list{
     width: 20%;
+    margin-bottom: 30px;
     border: 1px solid grey;
     
 }
 
 .row.sixth> div{
     margin: 10px 0;
+}
+
+
+/* CARD ALONE */
+
+
+
+
+.button-alone{
+    width: calc(100% / 3 - 20px );
+    text-align: center;
+    padding: 0 25px;
+    
+}
+
+.card-alone{
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card-alone> .row{
+    flex-grow: 1;
+    
+}
+
+.button-alone> .button-primary{
+    width: 100%;
+}
+
+.paragraph-alone{
+    margin-top: 30px;
 }
