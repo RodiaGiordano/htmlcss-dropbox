@@ -14,16 +14,17 @@
 }
 
 
-.container.full{
+.container-full{
     width: 100%;
 }
 
-.container.medium{
-    width: 80%;
+.container-medium{
+    width: 60%;
+    margin: auto;
 }
 
-.container.small{
-    width: 70%;
+.container-small{
+    width: 50%;
 }
 
 .flex{
@@ -39,8 +40,7 @@
 /* HEADER */
 
 
-
-header.container.full{
+header.container-full{
     position: fixed;
     top: 0;
     left: 0;
@@ -53,8 +53,6 @@ header.container.full{
     justify-content: space-between;
     align-items: center;
    
-    
-    
 }
 
 #logo{
@@ -87,4 +85,26 @@ nav.link{
 }
 
 
+/* MAIN */
 
+main{
+    margin-top: 10vh;
+}
+
+.paragraph{
+   max-width: calc(100% / 4);
+}
+
+
+    
+
+
+
+.jumbo{
+    flex-grow: 1;
+}
+
+.jumbo> img{
+    max-width: 100%;
+    
+}
