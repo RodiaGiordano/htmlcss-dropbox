@@ -21,12 +21,12 @@
 }
 
 .container-medium{
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
 .container-small{
-    width: 50%;
+    width: 70%;
     margin: auto;
     
 }
@@ -165,13 +165,13 @@ section h1{
 }
 
 .card.group{
-    gap: 30px;
+    gap: 20px;
 
 }
 
 .card.group> div{
     width: calc(100% / 3);
-    height: 300px;
+    
     
     
 }
@@ -188,13 +188,16 @@ section h1{
 
 .row{
     margin-bottom: 25px;
+    gap: 10px;
+    padding: 0 10px;
+    
 }
 
 /* Main > Section > ROW 1 */
 
 
 .row.one{
-    padding: 5px;
+    
     text-align: center;
     
 }
@@ -202,10 +205,7 @@ section h1{
 
 /* ROW-2 */
 
-.row.two{
-    gap: 10px;
-    
-}
+
 
 .row> .price{
     font-weight: bold;
@@ -216,3 +216,11 @@ section h1{
 }
 
 
+.function{
+    column-gap: 5px;
+}
+
+.border-list{
+    width: 20%;
+    border: 1px solid grey;
+}
