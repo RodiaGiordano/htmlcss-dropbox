@@ -9,6 +9,7 @@
 
 .debug *{
     border: 1px dashed black;
+    
 }
 
 .container-full{
@@ -26,3 +27,41 @@
 .flex{
     display: flex;
 }
+
+
+/* HEADER */
+
+header.container-full{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+    height: 10vh;
+    background-color: whitesmoke;
+
+    justify-content: space-between;
+}
+
+#logo{
+   height: 100%;
+    
+}
+
+nav> .link{
+    display: flex;
+    
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+li> a{
+    text-decoration: none;
+}
+
+
+
