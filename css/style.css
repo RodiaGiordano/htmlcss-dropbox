@@ -138,11 +138,7 @@ section h1{
     margin-bottom: 20px;
 }   
 
-i.fa-solid{
-    font-size: x-large;
-    
-    padding: 20px 0px 10px;
-}
+
 
 .jumbo> img{
     
@@ -189,3 +185,34 @@ i.fa-solid{
 .card-alone{
     margin-top: 30px;
 }
+
+.row{
+    margin-bottom: 25px;
+}
+
+/* Main > Section > ROW 1 */
+
+
+.row.one{
+    padding: 5px;
+    text-align: center;
+    
+}
+
+
+/* ROW-2 */
+
+.row.two{
+    gap: 10px;
+    
+}
+
+.row> .price{
+    font-weight: bold;
+}
+
+.row> .period{
+    color: grey ;
+}
+
+
