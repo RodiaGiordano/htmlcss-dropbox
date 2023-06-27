@@ -261,19 +261,12 @@ section h1{
 
 /* TERZA SEZIONE */
 
-.flex.section-3{
-    
-   
-    
-}
 
-
-
-.col-1{
+.section-3 .col-1{
     width: calc(2 * 100% / 3);
 }
 
-.col-2{
+.section-3 .col-2{
     width: calc(100% / 3);
     padding: 80px 60px;
     gap: 15px;
@@ -292,5 +285,19 @@ section h1{
     background-color: transparent;
     border: 1px solid black;
     
-
 }
+
+
+/* QUARTA SEZIONE */
+
+.section-4{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-4 .card{
+    width: calc(100% / 3 - 30px);
+    padding: 60px;
+    
+}
+
