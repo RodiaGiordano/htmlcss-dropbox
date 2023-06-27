@@ -304,7 +304,37 @@ section h1{
 
 /* QUINTA SEZIONE */
 
-.section-5{
-    
-    justify-content: space-between;
+
+.box{
+    width: 100%;
+
 }
+
+.box-logo{
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+}
+
+/* loghi quinta sezione */
+
+.logo{
+    width: 150px;
+    height: 150px;
+    padding: 20px;  
+}
+
+
+.logo> img{
+    width: 100%;
+    filter: invert(1);
+    
+}
+
+
+.logo.designed{
+    
+    border: 10px solid #D1E9CD;
+    background-color: #A2D39B;
+    
+}
+
