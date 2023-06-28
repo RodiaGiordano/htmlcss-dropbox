@@ -417,3 +417,23 @@ h5{
 .button-trial> button{
     padding: 10px 40px;
 }
+
+/* SECTION 6 */
+
+.box-request{
+    line-height: 5rem;
+    align-items: end;
+    gap: 100px;
+  
+}
+
+.request, .icon-request{
+    flex-grow:1;
+        
+}
+
+.icon-request {
+    text-align: center;
+}
+
+    
