@@ -317,9 +317,7 @@ h5{
 }
 
 .box-logo{
-    min-width: calc(100% / 3);
-    height: 500px;
-        
+    min-width: calc(100% / 3);        
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -328,7 +326,7 @@ h5{
 
 .logo{
     width: calc(100% / 2);
-    min-height: calc(100% / 2);
+    aspect-ratio: 1 / 1;
     align-items: center;
     padding: 20px;     
 }
